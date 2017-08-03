@@ -1,0 +1,7 @@
+
+enum Enemies {
+
+  Monster,
+  Soldier
+
+}
