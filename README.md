@@ -2,4 +2,4 @@
 
 Грубо говоря, ничего особенного, просто тестирую свои возможности
 
-<image src = "http://imgur.com/KNIaZBp"></image>
+![типо картинка с игрой](http://i.imgur.com/KNIaZBp.png)
