@@ -1,9 +1,11 @@
-
+// Copyright (c) 2017, Crazy As (Egor Plotnikov). All rights reserved. Use of this source code
+// is governed by a BSD-style license that can be found in the LICENSE file.
 import 'dart:html';
 import 'Unit.dart';
 import 'UnitInfo.dart';
 import 'EnemiesTypes.dart';
 
+///Класс игрока, реализует методы из абстрактного класса Unit
 class Player implements Unit{
 
   UnitInfo _info;
@@ -35,7 +37,7 @@ class Player implements Unit{
   }
 
   @override
-  Point getFieldCoords() {
+  Point<int> getFieldCoords() {
     return this._info.fieldCoords;
   }
 
@@ -46,7 +48,7 @@ class Player implements Unit{
   }
 
   @override
-  Point getGameCoords() {
+  Point<int> getGameCoords() {
     return this._info.gameCoords;
   }
 
@@ -58,9 +60,9 @@ class Player implements Unit{
   @override
   void _initInfo() {
     this._info.path = "";
-    this._info.gameCoords = new Point(null, null);
+    this._info.gameCoords = new Point<int>(0, 0);
     this._info.sprite = new ImageElement();
-    this._info.fieldCoords = new Point(null, null);
+    this._info.fieldCoords = new Point<int>(0, 0);
   }
 
 }

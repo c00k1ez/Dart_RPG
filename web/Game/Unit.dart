@@ -1,23 +1,33 @@
-
+// Copyright (c) 2017, Crazy As (Egor Plotnikov). All rights reserved. Use of this source code
+// is governed by a BSD-style license that can be found in the LICENSE file.
 import 'dart:html';
 import 'EnemiesTypes.dart';
 
+///Класс-родитель
 abstract class Unit {
 
+  ///Метод для загрузки спрайта
   void _loadSprite();
 
+  ///Парсин типа юнита
   void _parseType(Units type);
 
+  ///Возвращение спрайта юнита
   ImageElement getSprite();
 
-  Point getFieldCoords();
+  ///Вернуть координаты на матрице _field
+  Point<int> getFieldCoords();
 
+  ///Обновить координаты на матрице _field
   void setFieldCoords(Point point);
 
-  Point getGameCoords();
+  ///Венуть координаты в canvas
+  Point<int> getGameCoords();
 
+  ///Одновить canvas координаты
   void setGameCoords(Point point);
 
+  ///Начальная инициализация
   void _initInfo();
 
 }

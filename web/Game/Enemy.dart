@@ -1,9 +1,11 @@
-
+// Copyright (c) 2017, Crazy As (Egor Plotnikov). All rights reserved. Use of this source code
+// is governed by a BSD-style license that can be found in the LICENSE file.
 import 'dart:html';
 import 'Unit.dart';
 import 'UnitInfo.dart';
 import 'EnemiesTypes.dart';
 
+///Класс врага, реализует методы из абстрактного класса Unit
 class Enemy extends Unit {
 
   UnitInfo _info;
@@ -53,7 +55,7 @@ class Enemy extends Unit {
   }
 
   @override
-  Point getFieldCoords() {
+  Point<int> getFieldCoords() {
     return this._info.fieldCoords;
   }
 
@@ -64,7 +66,7 @@ class Enemy extends Unit {
   }
 
   @override
-  Point getGameCoords() {
+  Point<int> getGameCoords() {
     return this._info.gameCoords;
   }
 
