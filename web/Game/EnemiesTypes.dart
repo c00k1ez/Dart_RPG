@@ -1,7 +1,6 @@
 
-enum Enemies {
-
+enum Units {
+  Player,
   Monster,
   Soldier
-
 }

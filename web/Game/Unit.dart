@@ -2,38 +2,22 @@
 import 'dart:html';
 import 'EnemiesTypes.dart';
 
-class Unit {
+abstract class Unit {
 
-  Point _fieldCoords;
-  Point _gameCoords;
-  ImageElement _sprite;
-  Enemies _type;
-  String _path;
+  void _loadSprite();
 
-  void _loadSprite() {
-    _sprite.onLoad.listen((e) {
+  void _parseType(Units type);
 
-    });
-  }
+  ImageElement getSprite();
 
-  /*Unit() {
-    _sprite = new ImageElement(src: "Sprites/Knight/Knight.png");
-    _loadSprite();
-  }*/
+  Point getFieldCoords();
 
+  void setFieldCoords(Point point);
 
+  Point getGameCoords();
 
-  void _getType(Enemies type) {
-    this._type = type;
-    if(type == Enemies.Monster) {
-      _path = "Sprites/Enemy/Monster.png";
-    }else if (type == Enemies.Soldier) {
-      _path = "Sprites/Enemy/Soldier.png";
-    }
-  }
+  void setGameCoords(Point point);
 
-  ImageElement getSprite() {
-    return _sprite;
-  }
+  void _initInfo();
 
 }

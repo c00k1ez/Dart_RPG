@@ -3,6 +3,7 @@
 
 import 'dart:html';
 import 'Core/Core.dart';
+import 'Game/Game.dart';
 
 
 void main() {
@@ -10,6 +11,5 @@ void main() {
   canvas = querySelector('#canvas')..focus();
   ctx = canvas.getContext('2d');
 
-  var core = new Core();
-  core.run();
+  new Game();
 }

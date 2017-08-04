@@ -8,6 +8,12 @@
       <excludeFolder url="file://$MODULE_DIR$/packages" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/web/Core/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/Game/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/Sprites/Enemy/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/Sprites/Knight/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/Sprites/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/UI/packages" />
       <excludeFolder url="file://$MODULE_DIR$/web/packages" />
     </content>
     <orderEntry type="inheritedJdk" />
