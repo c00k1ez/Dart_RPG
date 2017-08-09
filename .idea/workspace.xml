@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce12d2f-3837-49fc-80d6-f460368f2f1e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/Sprites/Knight.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Sprites/Knight/Knight.png" afterPath="$PROJECT_DIR$/web/Sprites/Knight/Knight.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RPG_Game_No_WebGL.iml" afterPath="$PROJECT_DIR$/.idea/RPG_Game_No_WebGL.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Core/Core.dart" afterPath="$PROJECT_DIR$/web/Core/Core.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/Game.dart" afterPath="$PROJECT_DIR$/web/Game/Game.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/Player.dart" afterPath="$PROJECT_DIR$/web/Game/Player.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -281,7 +275,7 @@
       <workItem from="1501960707089" duration="128000" />
       <workItem from="1501961061253" duration="351000" />
       <workItem from="1501962262342" duration="4156000" />
-      <workItem from="1502304595435" duration="4437000" />
+      <workItem from="1502304595435" duration="4525000" />
     </task>
     <task id="LOCAL-00001" summary="continue to create this shit">
       <created>1501855789142</created>
@@ -311,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501860307163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add fucking player!">
+      <created>1502309202803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1502309202803</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38155000" />
+    <option name="totallyTimeSpent" value="38243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,7 +362,8 @@
     <MESSAGE value="continue to create this shit" />
     <MESSAGE value="Add new README" />
     <MESSAGE value="Add some comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some comments" />
+    <MESSAGE value="Add fucking player!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fucking player!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
