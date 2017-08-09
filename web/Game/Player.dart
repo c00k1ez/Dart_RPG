@@ -45,6 +45,7 @@ class Player implements Unit{
   @override
   void setFieldCoords(Point point) {
     this._info.fieldCoords = point;
+    this._info.gameCoords = new Point(point.x * 70, point.y * 70);
   }
 
   @override
@@ -55,6 +56,7 @@ class Player implements Unit{
   @override
   void setGameCoords(Point point) {
     this._info.gameCoords = point;
+    this._info.fieldCoords = new Point(point.x ~/ 70, point.y ~/ 70);
   }
 
   @override

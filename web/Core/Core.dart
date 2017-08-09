@@ -3,6 +3,9 @@
 import 'dart:html';
 import 'Resources.dart';
 import 'Keyboard.dart';
+import '../Game/Player.dart';
+import '../Game/Enemy.dart';
+
 
 ///Переменная, в которой хранится canvas
 CanvasElement canvas;
@@ -82,9 +85,21 @@ class Core {
     }
   }
 
+  //Список игроков (задатки мультиплеера)
+  List< Player > _players;
+
+  //Список вражин
+  List< Enemy > _enemies;
+
+  //TODO: хз будет ли работать
+  void getListsOfUnits(List< Player > players, List< Enemy > enemies) {
+    this._players = new List< Player >.from(players);
+    this._enemies = new List< Enemy >.from(enemies);
+  }
+
   //Отрисовка объектов
   void _drawObjects() {
-    if(_objects.isEmpty) {
+    if(_objects.isEmpty || _enemies.isEmpty || _players.isEmpty) {
       return;
     }
 
@@ -95,11 +110,47 @@ class Core {
           break;
       }
     }
+
+    for(Player p in _players) {
+      ctx.drawImage(p.getSprite(), p.getGameCoords().x, p.getGameCoords().y);
+    }
+
+    for(Enemy p in _enemies) {
+      ctx.drawImage(p.getSprite(), p.getGameCoords().x, p.getGameCoords().y);
+    }
   }
 
+  //Player _player;
+  //Enemy _enemy;
+
   ///Начало игрового цикла
-  void run() {
+  void run (/*List< Player > players, List< Enemy > enemies Player player, Enemy enemy*/) {
+    //this._players = new List< Player >.from(players);
+    //this._enemies = new List< Enemy >.from(enemies);
+    //this._player = player;
+    //this._enemy = enemy;
     window.animationFrame.then(_update);
+  }
+
+  int _x = 0;
+  int _y = 0;
+
+  void _updatePlayerCoords() {
+    if (keyboard.isPressed(KeyCode.A)) {
+      _x -= 8;
+    }
+    else if (keyboard.isPressed(KeyCode.D)) {
+      _x += 8;
+    }
+    else if (keyboard.isPressed(KeyCode.W)) {
+      _y -= 8;
+    }
+    else if (keyboard.isPressed(KeyCode.S)) {
+      _y += 8;
+    }
+
+    _players[0].setGameCoords(new Point(_x, _y));
+
   }
 
   ///Ебаная магия.
@@ -112,6 +163,7 @@ class Core {
       _lastTimeStamp = delta;
       _clear();
       _drawBackground();
+      _updatePlayerCoords();
       _drawObjects();
     }
 
