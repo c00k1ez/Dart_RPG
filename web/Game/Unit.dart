@@ -19,13 +19,13 @@ abstract class Unit {
   Point<int> getFieldCoords();
 
   ///Обновить координаты на матрице _field
-  void setFieldCoords(Point point);
+  void setFieldCoords(Point<int> point);
 
   ///Венуть координаты в canvas
   Point<int> getGameCoords();
 
   ///Одновить canvas координаты
-  void setGameCoords(Point point);
+  void setGameCoords(Point<int> point);
 
   ///Начальная инициализация
   void _initInfo();

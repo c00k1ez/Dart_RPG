@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce12d2f-3837-49fc-80d6-f460368f2f1e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Core/Core.dart" afterPath="$PROJECT_DIR$/web/Core/Core.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Core/Keyboard.dart" afterPath="$PROJECT_DIR$/web/Core/Keyboard.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Core/Resources.dart" afterPath="$PROJECT_DIR$/web/Core/Resources.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/EnemiesTypes.dart" afterPath="$PROJECT_DIR$/web/Game/EnemiesTypes.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/Enemy.dart" afterPath="$PROJECT_DIR$/web/Game/Enemy.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/Game.dart" afterPath="$PROJECT_DIR$/web/Game/Game.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/Player.dart" afterPath="$PROJECT_DIR$/web/Game/Player.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/Unit.dart" afterPath="$PROJECT_DIR$/web/Game/Unit.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Game/UnitInfo.dart" afterPath="$PROJECT_DIR$/web/Game/UnitInfo.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +31,35 @@
       <file leaf-file-name="Unit.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Game/Unit.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="450">
+              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
-                <element signature="e#0#768#0" expanded="true" />
+                <element signature="e#0#778#0" expanded="true" />
                 <element signature="e#172#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resources.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Core/Resources.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Keyboard.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Core/Keyboard.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="76" lean-forward="false" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#764#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,10 +68,10 @@
       <file leaf-file-name="Player.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Game/Player.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="58" column="69" lean-forward="true" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+            <state relative-caret-position="549">
+              <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
               <folding>
-                <element signature="e#0#1526#0" expanded="true" />
+                <element signature="e#0#1536#0" expanded="true" />
                 <element signature="e#172#191#0" expanded="true" />
                 <element signature="e#388#492#0" expanded="false" />
                 <element signature="e#655#756#0" expanded="false" />
@@ -47,8 +83,8 @@
       <file leaf-file-name="Game.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Game/Game.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="342">
+              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding>
                 <element signature="e#172#191#0" expanded="true" />
               </folding>
@@ -59,12 +95,22 @@
       <file leaf-file-name="Core.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/Core/Core.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="145" column="14" lean-forward="true" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
+            <state relative-caret-position="296">
+              <caret line="158" column="29" lean-forward="false" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
               <folding>
-                <element signature="e#0#4397#0" expanded="true" />
+                <element signature="e#0#4766#0" expanded="true" />
                 <element signature="e#172#191#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +118,7 @@
       <file leaf-file-name="UnitInfo.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Game/UnitInfo.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="180">
               <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="e#0#486#0" expanded="true" />
@@ -84,10 +130,10 @@
       <file leaf-file-name="Enemy.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Game/Enemy.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="702">
+              <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding>
-                <element signature="e#0#1461#0" expanded="true" />
+                <element signature="e#0#1471#0" expanded="true" />
                 <element signature="e#172#191#0" expanded="true" />
                 <element signature="e#383#487#0" expanded="false" />
                 <element signature="e#520#698#0" expanded="false" />
@@ -95,9 +141,9 @@
                 <element signature="e#936#1037#0" expanded="false" />
                 <element signature="e#1078#1113#0" expanded="false" />
                 <element signature="e#1157#1197#0" expanded="false" />
-                <element signature="e#1247#1288#0" expanded="false" />
-                <element signature="e#1331#1370#0" expanded="false" />
-                <element signature="e#1418#1458#0" expanded="false" />
+                <element signature="e#1252#1293#0" expanded="false" />
+                <element signature="e#1336#1375#0" expanded="false" />
+                <element signature="e#1428#1468#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -130,11 +176,12 @@
         <option value="$PROJECT_DIR$/web/Core/Keyboard.dart" />
         <option value="$PROJECT_DIR$/web/Core/Resources.dart" />
         <option value="$PROJECT_DIR$/web/Game/EnemiesTypes.dart" />
+        <option value="$PROJECT_DIR$/web/Game/UnitInfo.dart" />
+        <option value="$PROJECT_DIR$/web/Game/Game.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/web/Game/Player.dart" />
         <option value="$PROJECT_DIR$/web/Game/Unit.dart" />
         <option value="$PROJECT_DIR$/web/Game/Enemy.dart" />
-        <option value="$PROJECT_DIR$/web/Game/UnitInfo.dart" />
-        <option value="$PROJECT_DIR$/web/Game/Player.dart" />
-        <option value="$PROJECT_DIR$/web/Game/Game.dart" />
         <option value="$PROJECT_DIR$/web/Core/Core.dart" />
       </list>
     </option>
@@ -145,9 +192,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="600" />
-    <option name="width" value="773" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="713" />
+    <option name="width" value="660" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectView">
@@ -171,6 +218,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="DART_PUB_BUILD_MODE" value="debug" />
+    <property name="last_opened_file_path" value="/opt/dartium/chrome" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -275,7 +325,11 @@
       <workItem from="1501960707089" duration="128000" />
       <workItem from="1501961061253" duration="351000" />
       <workItem from="1501962262342" duration="4156000" />
-      <workItem from="1502304595435" duration="4525000" />
+      <workItem from="1502304595435" duration="4578000" />
+      <workItem from="1502314026910" duration="572000" />
+      <workItem from="1502399008787" duration="1084000" />
+      <workItem from="1503172771393" duration="604000" />
+      <workItem from="1503513712472" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="continue to create this shit">
       <created>1501855789142</created>
@@ -312,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502309202803</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add fucking player!">
+      <created>1502309226033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502309226033</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38243000" />
+    <option name="totallyTimeSpent" value="41559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,13 +389,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="600" y="0" width="773" height="775" extended-state="0" />
+    <frame x="713" y="0" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17879161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3019727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Pub Serve" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Pub Serve" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16765578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -343,7 +404,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -372,12 +433,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/Game/Enemy.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#1471#0" expanded="true" />
+            <element signature="e#172#191#0" expanded="true" />
+            <element signature="e#383#487#0" expanded="false" />
+            <element signature="e#520#698#0" expanded="false" />
+            <element signature="e#743#900#0" expanded="false" />
+            <element signature="e#936#1037#0" expanded="false" />
+            <element signature="e#1078#1113#0" expanded="false" />
+            <element signature="e#1157#1197#0" expanded="false" />
+            <element signature="e#1252#1293#0" expanded="false" />
+            <element signature="e#1336#1375#0" expanded="false" />
+            <element signature="e#1428#1468#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/Game/Unit.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#0#778#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
           </folding>
         </state>
@@ -398,7 +479,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
-            <element signature="e#0#1461#0" expanded="true" />
+            <element signature="e#0#1471#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#383#487#0" expanded="false" />
             <element signature="e#520#698#0" expanded="false" />
@@ -406,9 +487,9 @@
             <element signature="e#936#1037#0" expanded="false" />
             <element signature="e#1078#1113#0" expanded="false" />
             <element signature="e#1157#1197#0" expanded="false" />
-            <element signature="e#1247#1288#0" expanded="false" />
-            <element signature="e#1331#1370#0" expanded="false" />
-            <element signature="e#1418#1458#0" expanded="false" />
+            <element signature="e#1252#1293#0" expanded="false" />
+            <element signature="e#1336#1375#0" expanded="false" />
+            <element signature="e#1428#1468#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -418,7 +499,7 @@
         <state relative-caret-position="629">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1526#0" expanded="true" />
+            <element signature="e#0#1536#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#388#492#0" expanded="false" />
             <element signature="e#655#756#0" expanded="false" />
@@ -431,7 +512,7 @@
         <state relative-caret-position="476">
           <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#0#778#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
           </folding>
         </state>
@@ -452,7 +533,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
-            <element signature="e#0#1526#0" expanded="true" />
+            <element signature="e#0#1536#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#388#492#0" expanded="false" />
             <element signature="e#655#756#0" expanded="false" />
@@ -465,7 +546,7 @@
         <state relative-caret-position="51">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
-            <element signature="e#0#1461#0" expanded="true" />
+            <element signature="e#0#1471#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#383#487#0" expanded="false" />
             <element signature="e#520#698#0" expanded="false" />
@@ -473,9 +554,9 @@
             <element signature="e#936#1037#0" expanded="false" />
             <element signature="e#1078#1113#0" expanded="false" />
             <element signature="e#1157#1197#0" expanded="false" />
-            <element signature="e#1247#1288#0" expanded="false" />
-            <element signature="e#1331#1370#0" expanded="false" />
-            <element signature="e#1418#1458#0" expanded="false" />
+            <element signature="e#1252#1293#0" expanded="false" />
+            <element signature="e#1336#1375#0" expanded="false" />
+            <element signature="e#1428#1468#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -485,7 +566,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#0#778#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
           </folding>
         </state>
@@ -496,7 +577,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
-            <element signature="e#0#1526#0" expanded="true" />
+            <element signature="e#0#1536#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#388#492#0" expanded="false" />
             <element signature="e#655#756#0" expanded="false" />
@@ -509,7 +590,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#0#778#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
           </folding>
         </state>
@@ -541,7 +622,7 @@
         <state relative-caret-position="85">
           <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#0#778#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
           </folding>
         </state>
@@ -552,7 +633,7 @@
         <state relative-caret-position="306">
           <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
-            <element signature="e#0#1526#0" expanded="true" />
+            <element signature="e#0#1536#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#388#492#0" expanded="false" />
             <element signature="e#655#756#0" expanded="false" />
@@ -575,7 +656,7 @@
         <state relative-caret-position="323">
           <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
-            <element signature="e#0#1461#0" expanded="true" />
+            <element signature="e#0#1471#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#383#487#0" expanded="false" />
             <element signature="e#520#698#0" expanded="false" />
@@ -583,9 +664,9 @@
             <element signature="e#936#1037#0" expanded="false" />
             <element signature="e#1078#1113#0" expanded="false" />
             <element signature="e#1157#1197#0" expanded="false" />
-            <element signature="e#1247#1288#0" expanded="false" />
-            <element signature="e#1331#1370#0" expanded="false" />
-            <element signature="e#1418#1458#0" expanded="false" />
+            <element signature="e#1252#1293#0" expanded="false" />
+            <element signature="e#1336#1375#0" expanded="false" />
+            <element signature="e#1428#1468#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,7 +691,7 @@
         <state relative-caret-position="119">
           <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
-            <element signature="e#0#1526#0" expanded="true" />
+            <element signature="e#0#1536#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#388#492#0" expanded="false" />
             <element signature="e#655#756#0" expanded="false" />
@@ -623,7 +704,7 @@
         <state relative-caret-position="68">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1461#0" expanded="true" />
+            <element signature="e#0#1471#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#383#487#0" expanded="false" />
             <element signature="e#520#698#0" expanded="false" />
@@ -631,9 +712,9 @@
             <element signature="e#936#1037#0" expanded="false" />
             <element signature="e#1078#1113#0" expanded="false" />
             <element signature="e#1157#1197#0" expanded="false" />
-            <element signature="e#1247#1288#0" expanded="false" />
-            <element signature="e#1331#1370#0" expanded="false" />
-            <element signature="e#1418#1458#0" expanded="false" />
+            <element signature="e#1252#1293#0" expanded="false" />
+            <element signature="e#1336#1375#0" expanded="false" />
+            <element signature="e#1428#1468#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -657,16 +738,9 @@
         <state relative-caret-position="493">
           <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#0#778#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -724,13 +798,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Dart/dart-sdk/lib/math/point.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Dart/dart-sdk/lib/math/point.dart" />
     <entry file="file://$PROJECT_DIR$/.pub/transformers/manifest.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,13 +811,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Dart/dart-sdk/lib/html/dart2js/html_dart2js.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="2792" column="7" lean-forward="false" selection-start-line="2792" selection-start-column="7" selection-end-line="2792" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Dart/dart-sdk/lib/html/dart2js/html_dart2js.dart" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -764,20 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Core/Keyboard.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="76" lean-forward="false" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Core/Resources.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="76" lean-forward="false" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Game/EnemiesTypes.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -785,22 +833,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Game/UnitInfo.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Game/Enemy.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="702">
+          <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding>
-            <element signature="e#0#1461#0" expanded="true" />
+            <element signature="e#0#1471#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#383#487#0" expanded="false" />
             <element signature="e#520#698#0" expanded="false" />
@@ -808,19 +846,67 @@
             <element signature="e#936#1037#0" expanded="false" />
             <element signature="e#1078#1113#0" expanded="false" />
             <element signature="e#1157#1197#0" expanded="false" />
-            <element signature="e#1247#1288#0" expanded="false" />
-            <element signature="e#1331#1370#0" expanded="false" />
-            <element signature="e#1418#1458#0" expanded="false" />
+            <element signature="e#1252#1293#0" expanded="false" />
+            <element signature="e#1336#1375#0" expanded="false" />
+            <element signature="e#1428#1468#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Game/UnitInfo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Core/Keyboard.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="76" lean-forward="false" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Game/Unit.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="450">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#0#778#0" expanded="true" />
+            <element signature="e#172#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Core/Resources.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Game/Game.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
             <element signature="e#172#191#0" expanded="true" />
           </folding>
         </state>
@@ -828,10 +914,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Game/Player.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="58" column="69" lean-forward="true" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+        <state relative-caret-position="549">
+          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
           <folding>
-            <element signature="e#0#1526#0" expanded="true" />
+            <element signature="e#0#1536#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
             <element signature="e#388#492#0" expanded="false" />
             <element signature="e#655#756#0" expanded="false" />
@@ -839,22 +925,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Game/Game.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#172#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Core/Core.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="145" column="14" lean-forward="true" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
+        <state relative-caret-position="296">
+          <caret line="158" column="29" lean-forward="false" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
           <folding>
-            <element signature="e#0#4397#0" expanded="true" />
+            <element signature="e#0#4766#0" expanded="true" />
             <element signature="e#172#191#0" expanded="true" />
           </folding>
         </state>

@@ -153,9 +153,24 @@ class Core {
 
   }
 
+  Point<int> _playerP;
+
+
+  //TODO: пофиксить эту ебалу
+  void _collision() {
+    for(num i = 0; i < _players.length; i ++) {
+      var point = _players[i].getFieldCoords();
+      if (_field[point.x][point.y] != 0) {
+        _players[i].setFieldCoords(this._playerP);
+      } else {
+        _playerP = new Point(point.x, point.y);
+      }
+    }
+  }
+
   ///Ебаная магия.
   ///НЕ ЛЕЗЬ БЛЯТЬ, ОНО ТЕБЯ СОЖРЕТ!!!!
-  ///TODO: разобраться с этой магией
+  ///TODO: разобраться с этой хуйней
   void _update(num delta) {
     final num diff = delta - _lastTimeStamp;
 
@@ -164,6 +179,7 @@ class Core {
       _clear();
       _drawBackground();
       _updatePlayerCoords();
+      _collision();
       _drawObjects();
     }
 

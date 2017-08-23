@@ -61,7 +61,7 @@ class Enemy extends Unit {
 
 
   @override
-  void setFieldCoords(Point point) {
+  void setFieldCoords(Point<int> point) {
     this._info.fieldCoords = point;
   }
 
@@ -71,7 +71,7 @@ class Enemy extends Unit {
   }
 
   @override
-  void setGameCoords(Point point) {
+  void setGameCoords(Point<int> point) {
     this._info.gameCoords = point;
   }
 
